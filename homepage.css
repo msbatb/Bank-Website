@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,white,#F2E2B1);
+}
+
+.home{
+    height: 80vh;
+    width: 100%;
+}
+
+.home-text{
+    margin-top: 30vh;
+    margin-left: 50px;
+}
+
+.home-text h1{
+    font-size: 80px;
+}
+
+.home-text a{
+    background-color: #504B38;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.services{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.card{
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #504B38;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 50px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+.sendmoney{
+    height: 80vh;
+    width: 100%;
+}
+
+.send-btn{
+    text-align: center;
+    margin-left: 650px;
+    width: 250px;
+    background-color: #504B38;
+    color: white;
+}
+
+.send-btn:hover{
+    background: burlywood;
+}
+
